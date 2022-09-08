@@ -1,0 +1,14 @@
+
+  <agm-map
+    [zoom]="12"
+    [latitude]="lat"
+    [longitude]="lng"
+    (mapReady)="onMapReady($event)"
+
+  >
+  </agm-map>
+<br>
+  <button class="button-error" (click)="deleteSelectedShape()">
+    Delete Polygon
+  </button>
+
